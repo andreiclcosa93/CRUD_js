@@ -8,7 +8,7 @@ document.getElementById('add-btn').addEventListener('click', function(e) {
 
     var addInput = document.getElementById('add-input');
 
-    //conditia pentru crearea de required
+    
     if(addInput.value !== '') { 
 
         var li = document.createElement('li'),
